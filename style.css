@@ -1,0 +1,70 @@
+body {
+    background-color: #2c302e;
+}
+
+.container {
+    padding-top: 10rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+h1 {
+    color: #e0e2db;
+    font-size: 50px;
+    margin-bottom: 1rem;
+
+}
+
+#date {
+    border-radius: 10px;
+}
+
+#myButton {
+    width: 50%;
+    text-align: center;
+    margin-left: 9rem;
+    font-size: 20px;
+    background-color: #adb5bd;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.clock {
+    display: grid;
+    text-align: center;
+    width: 40%;
+    color: white;
+    font-size: 1em;
+    padding-left: 27rem;
+   
+}
+
+.clock span {
+   padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 15px;
+    background-color: #009e4e;
+   
+}
+
+.clock span span {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #474a48;
+}
+
+input {
+    padding: 15px;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+#refreshPage {
+    width: 50%;
+    text-align: center;
+    margin-left: 9rem;
+    font-size: 20px;
+    background-color: #adb5bd;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
