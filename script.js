@@ -4,6 +4,7 @@ let timeInterval;
 let timeStop = true;
 const savedValue = localStorage.getItem("countdown") || false;
 let Btn;
+// to start the countdown for target date  
 endDate.addEventListener("change", function (e) {
     e.preventDefault();
     clearInterval(timeInterval);
@@ -12,7 +13,7 @@ endDate.addEventListener("change", function (e) {
     startClock(temp);
     timeStop = true;
 })
-
+// for countdown the target date
 function startClock(d) {
     function updateCounter() {
         let tl = (timeLeft(d));
@@ -34,7 +35,7 @@ function startClock(d) {
         clearInterval(timeInterval);
     }
 }
-
+// to count the days, hours, minutes and seconds
 function timeLeft(d) {
     let currentDate = new Date();
     let t = Date.parse(d) - Date.parse(currentDate);
