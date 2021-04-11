@@ -30,6 +30,7 @@ h1 {
 
 .clock {
     display: grid;
+    grid-template-columns: auto;
     text-align: center;
     width: 40%;
     color: white;
