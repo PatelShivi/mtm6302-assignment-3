@@ -18,7 +18,7 @@ h1 {
     border-radius: 10px;
 }
 
-#myButton {
+/* #myButton {
     width: 50%;
     text-align: center;
     margin-left: 9rem;
@@ -26,15 +26,15 @@ h1 {
     background-color: #adb5bd;
     border-radius: 10px;
     margin-bottom: 1rem;
-}
+} */
 
 .clock {
     display: grid;
     text-align: center;
-    width: 40%;
+    width: 50%;
     color: white;
     font-size: 1em;
-    padding-left: 27rem;
+    /* padding-left: 27rem; */
    
 }
 
